@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1240px;
+    margin: auto;
+}
+img{
+	width: 300px;
+	height: 200px;
+	
+}
+
+.recent {
+	background-color: rgb(13, 170, 188);
+	color: #fff;
+	height: 869px;
+	text-align: center;
+	margin-top: -17px;
+	position: relative;
+}
+.recent p {
+	width: 45%;
+	position: relative;
+	left: 360px;
+	top: 70px;
+	font-size: 20px;
+}
+.recent h1 {
+	width: 45%;
+	position: relative;
+	top: 78px;
+	left: 364px;
+}
+.recent .pera-2 {
+	width: 70%;
+	position: relative;
+	left: 231px;
+	top: 86px;
+}
+.height {
+	background-color: #5688fe;
+	width: 4px;
+	height: 369px;
+	display: inline-block;
+	position: absolute;
+	/* left: 160px; */
+	top: 1814px;
+	right: 743px;
+}
+
+.all-img {
+	padding-top: 100px;
+	text-align: center;
+ 
+  
+}
+.image-top{
+    overflow: hidden;
+}
+.image-bottom {
+	padding-top: 15px;
+   
+}
+
+.all-img .one{
+    transition: .4s;
+    overflow: hidden;
+ 
+}
+.all-img .one img{
+    transition: .4s;
+    overflow: hidden;
+	
+}
+
+.all-img .two{
+    transition: .4s;
+    overflow: hidden;
+
+}
+.all-img .two img{
+    transition: .4s;
+  
+
+}
+
+.all-img .three{
+    transition: .4s;
+    overflow: hidden;
+    
+  
+}
+.all-img .three img{
+    transition: .4s;
+  
+    
+  
+}
+.all-img .four{
+    transition: .4s;
+    overflow: hidden;
+}
+.all-img .four img{
+    transition: .4s;
+}
+.all-img .five{
+    transition: .4s;
+    overflow: hidden;
+}
+.all-img .five img{
+    transition: .4s;
+}
+.all-img .six{
+    transition: .4s;
+    overflow: hidden;
+}
+.all-img .six img{
+    transition: .4s;
+}
+.all-img .seven{
+    transition: .4s;
+    overflow: hidden;
+    
+}
+.all-img .seven img{
+    transition: .4s;
+    
+}
+
+.all-img .eight{
+    transition: .4s;
+    overflow: hidden;
+}
+.all-img .eight img{
+    transition: .4s;
+}
+.main {
+	display: inline-block;
+	width: 23%;
+	margin-right: 21px;
+    
+}
+
+
+.all-img .one img:hover{
+    transform: rotate(360deg);
+}
+.all-img .two img:hover{
+    transform: rotate(30deg);
+    
+   
+    
+}
+.all-img .three img:hover {
+	transform: skew(30deg) scale(1.2);
+}
+.all-img .four img:hover{
+    transform: skew(-30deg) scale(1.2) ;
+   
+}
+.all-img .five img:hover{
+    transform: rotate(30deg) scale(1.2);
+}
+.all-img .six img:hover{
+    transform: rotate(360deg);
+}
+.all-img .seven img:hover{
+    transform: rotate(3deg) scale(1.5);
+}
+.all-img .eight img:hover{
+    transform: rotate(-3deg) scale(1.5);
+}
+.btn {
+	font-size: 20px;
+	padding: 10px 25px;
+	border: none;
+	position: relative;
+	right: -1px;
+	top: 43px;
+	border-radius: 5px;
+	background: #ffdd00;
+	z-index: 1;
+}
+.btn a{
+    text-decoration: none;
+	font-family: 'Courier New', monospace;
+	color: black;
+	font-weight: 600;
+	transition: .4s;
+}
+.btn::before{
+	content: "";
+	width: 0;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background-color: #ff1e00;
+	position: absolute;
+	z-index: -1;
+	border-radius: 0px 5px 5px 0px;
+
+	transition: .4s;
+}
+.btn:hover::before{
+	width: 50%;
+}
+.btn::after{
+	content: "";
+	width: 0;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #00ff5e;
+	position: absolute;
+	z-index: -1;
+	border-radius: 5px 0px 0px 5px;
+
+	transition: .4s;
+}
+.btn:hover::after{
+	width: 50%;
+}
+.btn:hover a{
+	color: #fff;
+}
